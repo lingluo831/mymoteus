@@ -1,0 +1,74 @@
+(footprint "C1206_NOBORDER"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Description: Standard 1206 Package for Capacitors")
+	(property "Reference" "REF**"
+		(at -2.2 -1.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "88ee0dd9-6be7-4222-bfb6-267dadb294cb")
+		(effects
+			(font
+				(size 0.85344 0.85344)
+				(thickness 0.16256)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d420a15c-f0cc-464a-9007-1d8218357d35")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65303b30-4be9-455a-8f85-fe0c8b81fa5e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c96d2f65-a04c-48ca-8b76-a071bcff9ca4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "P$1" smd rect
+		(at -1.45 0 180)
+		(size 0.9 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "004d6fec-61bb-4610-8224-7336481a913c")
+	)
+	(pad "P$2" smd rect
+		(at 1.45 0 180)
+		(size 0.9 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "e94d6202-7a55-41ab-b2ec-d77047a878a6")
+	)
+	(embedded_fonts no)
+)

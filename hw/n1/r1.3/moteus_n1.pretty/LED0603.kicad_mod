@@ -1,0 +1,138 @@
+(footprint "LED0603"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Description: Footprint for Single LEDs in 0603")
+	(property "Reference" "REF**"
+		(at -1.7 -1.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ad4913bb-ca3f-438d-88d7-d53de02d3c80")
+		(effects
+			(font
+				(size 0.85344 0.85344)
+				(thickness 0.16256)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "5aafe07d-a24b-4db8-9c93-142c63b1507a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f97d5296-3992-44b1-8b77-8e3555929ff7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92c5124c-b2b4-48dc-aa66-118c50e77e3a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.5 -0.75)
+		(end -1.5 0.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a77456f-3c4e-4cdd-b574-ed4e4bc7b0cc")
+	)
+	(fp_line
+		(start -1.5 0.75)
+		(end 1.5 0.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aa281f26-a9e2-4e87-8a35-7ee6c4ff8397")
+	)
+	(fp_line
+		(start 1.5 -0.75)
+		(end -1.5 -0.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1a0dfa7f-701a-4227-a6f5-5321cbd52196")
+	)
+	(fp_line
+		(start 1.5 0.75)
+		(end 1.5 -0.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "726c4650-dfee-4894-a5a4-72cf4ffaaa35")
+	)
+	(fp_poly
+		(pts
+			(xy 0.2135 0.453303) (xy -0.239803 0) (xy 0.2135 -0.453303)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "d459893c-abd1-41ed-9b3a-cc3b3a88139e")
+	)
+	(fp_poly
+		(pts
+			(xy -1.4365 0.8135) (xy -1.7635 0.8135) (xy -1.7635 -0.8135) (xy -1.4365 -0.8135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "66c86453-79e5-42f6-8583-44cfd56e3826")
+	)
+	(pad "ANODE" smd rect
+		(at 0.75 0)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "cadd0d07-59a5-4c24-95e1-067d5361f64d")
+	)
+	(pad "CATHODE" smd rect
+		(at -0.75 0)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "a826d028-0a18-4534-a3c6-3e72e3d13a6c")
+	)
+	(embedded_fonts no)
+)
